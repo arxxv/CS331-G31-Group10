@@ -1,3 +1,7 @@
 [submodule "PeerKart-backend"]
 	path = PeerKart
 	url = https://github.com/arxxv/PeerKart.git
+[submodule "peerkartandroid"]
+	path = peerkartandroid
+	url = https://github.com/Arsh-ak7/peerkartandroid.git
+	branch = rest-backend
