@@ -5,3 +5,6 @@
 	path = peerkartandroid
 	url = https://github.com/Arsh-ak7/peerkartandroid.git
 	branch = rest-backend
+[submodule "peerkart-frontend"]
+	path = peerkart-frontend
+	url = https://github.com/Arsh-ak7/peerkart-frontend
