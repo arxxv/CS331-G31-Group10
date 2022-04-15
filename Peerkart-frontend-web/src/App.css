@@ -1,0 +1,16 @@
+.app {
+	background: #f5f5f5;
+	display: flex;
+	width: 100vw;
+	height: auto;
+}
+
+.app-left {
+	width: 20%;
+	height: 100%;
+}
+
+.app-right {
+	width: 80%;
+	height: 100%;
+}

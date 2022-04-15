@@ -1,0 +1,70 @@
+.sidebar-con {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.side {
+	width: 90%;
+}
+
+.side-menu {
+	list-style-type: none;
+}
+
+.side-option {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	color: #3a416f;
+}
+
+.side-option:hover {
+	cursor: pointer;
+	background: white;
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05) !important;
+	border-radius: 7px;
+	color: white;
+}
+
+.side-option:hover > .side-text {
+	color: black;
+}
+.side-option:hover > .side-icon > .side-icon-shadow {
+	background: #cb0c9f;
+}
+
+.side-option > svg {
+	padding-right: 10px;
+}
+
+.side-icon {
+	width: 20%;
+	place-items: center;
+	padding-right: 10px;
+}
+
+.side-text {
+	color: #67748e;
+}
+
+.side-icon-shadow {
+	background: white;
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	height: 10%;
+}
+
+.sidelink {
+	text-decoration: none;
+}

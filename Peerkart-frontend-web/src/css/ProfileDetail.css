@@ -1,0 +1,79 @@
+.modalBackground {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    overflow: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .profile_detail_forms{
+      padding:0px 30px;
+  }
+
+  .profile_detail_input{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .profile_detail_input input{
+      width:70%;
+      padding:5px 10px;
+  }
+
+  .profile_detail_button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+  }
+
+  .profile_detail_button button{
+      padding:10px 20px;
+      font-size: 17px;
+      background-color: red;
+      color:#fff;
+      text-transform: uppercase;
+      border:none;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .profile_detail_head{
+      font-size: 30px;
+      color:#8392ab;
+      text-align: center;
+  }
+  

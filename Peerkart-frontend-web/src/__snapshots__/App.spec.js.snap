@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the site 1`] = `ShallowWrapper {}`;
+
+exports[`CreateOrderModal CreateOrderModal component is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard Dashboard page is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Home Home page is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Login Login page is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Modal Modal component is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`ModalAccepted ModalAccepted component is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`ModalTransaction ModalTransaction component is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`ProfileDetail ProfileDetail component is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Register Register page is rendered 1`] = `ShallowWrapper {}`;
+
+exports[`Sidebar Sidebar component is rendered 1`] = `ShallowWrapper {}`;

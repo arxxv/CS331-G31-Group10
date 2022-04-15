@@ -1,0 +1,291 @@
+.wrapper{
+    height:100%;
+    width:97%;
+    margin-right: 20px;
+}
+.top-box .profiletop{
+    width: 100%;
+	min-height: 180px;
+    max-height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+    z-index:1;
+}
+.profilewrap {
+	width: 90%;
+	height: 90px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(27.1828px);
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 2;
+	border-radius: 15px;
+	padding: 10px 20px;
+	margin-top: -60px;
+	margin-bottom: 20px;
+}
+.avatarimg {
+	height: 70px;
+	margin-right: 20px;
+    border-radius:15px;
+    margin-top: 10px;
+	float: left;
+    width:70px;
+}
+
+.profileinfodiv {
+	float: left;
+}
+
+.profileinfoname {
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 23px;
+	text-transform: capitalize;
+}
+
+
+.profileinfoAddress {
+	color: #8c8c8c;
+    font-size: 14px;
+}
+
+.middle-boxes{
+	display:flex;
+	margin-bottom: 20px;
+}
+.mid-boxes{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:20px 20px;
+	margin-left: 25px;
+	border-radius: 15px;
+}
+.profile_div{
+	width:35%;
+}
+.transaction_div{
+	width:35%;
+}
+.upper{
+	text-transform: uppercase;
+}
+.order_created_div{
+	width:65%;
+}
+
+.order_accepted_div{
+	width:65%;
+}
+.heading-boxes{
+	margin:0;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.profileboxinfo{
+	font-size: 14px;
+}
+
+.profileboxlineinfo{
+	font-size: 14px;
+	margin-top:-8px;
+}
+
+.profileboxinfotag{
+	font-weight: 600;
+	margin-right: 10px;
+	color:#8c8c8c;
+}
+
+.profileboxinfoanswer{
+	color:black;
+	font-weight: 600;
+}
+
+.profileboxinfoupdate{
+	float:right;
+	font-size: 12px;
+	color:#941152
+}
+
+.update-icon{
+	height:12px;
+}
+
+.moneyicon{
+	height:30px;width:30px;
+}
+
+.moneyicon1{
+	height:18px;
+	width:18px;
+	margin-right: 5px;
+}
+
+.moneyimg{
+	float:left;
+}
+
+.moneyvalue{
+	margin-top: 14.5px;
+	float:left;
+}
+.trandate{
+	font-size: 11px;
+}
+
+.moretransaction{
+	display: flex;
+	justify-content: flex-end;
+	padding:5px 15px;
+	font-size: 11px;
+	color:#941152;
+	cursor: pointer;
+}
+
+.plusicon{
+	margin:0;
+	padding:0;
+	position: relative;
+	font-size: 14px;
+}
+
+.moretranstext{
+	margin-left: 5px;
+}
+
+.updateprofile{
+	display: flex;
+	justify-content: flex-end;
+	
+	font-size: 15px;
+	color:white;
+	
+	cursor: pointer;
+}
+
+.updateprofile div{
+	background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+	border-radius: 20px;
+	padding:5px 15px;
+}
+
+.pluspencil{
+	margin:0;
+	padding:0;
+	position: relative;
+	font-size: 16px;
+}
+
+.updateprofiletext{
+	margin-left: 5px;
+}
+
+.transdetail{
+	font-size: 12px;
+	color:white;
+	cursor: pointer;
+	padding:5px 10px;
+	margin-left: 0px;
+	background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+	border-radius: 20px;
+}
+
+.green-color{
+	color:green;
+}
+.red-color{
+	color:red;
+}
+
+.update_profile_icon{
+	float: right;
+	color:#8c8c8c;
+	cursor: pointer;
+}
+
+.created_list_item{
+	display: flex;
+	padding:15px 25px;
+	font-size: 14px;
+	justify-content: space-between;
+	color:#8c8c8c;
+}
+
+.transaction_list_item{
+	display: flex;
+	padding:15px 25px;
+	font-size: 14px;
+	justify-content: space-between;
+	color:#8c8c8c;
+}
+
+.green{
+	background: linear-gradient(135deg, #98EC2D 0%, #17AD37 100%);
+}
+
+.created_list_item_2{
+	font-weight: 500;
+}
+
+.created_list_item_4{
+	background-color:#EB5757;
+	color:white;
+	padding:3px 25px;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 8px;
+	cursor: pointer;
+	width:50px;
+	text-align: center;
+}
+.accepted_list_item{
+	display: flex;
+	padding:15px 25px;
+	font-size: 14px;
+	justify-content: space-between;
+	color:#8c8c8c;
+}
+
+.accepted_list_item_2{
+	font-weight: 500;
+}
+
+.accepted_list_item_4{
+	background-color:#EB5757;
+	color:white;
+	padding:3px 25px;
+	font-size: 12px;
+	font-weight: 500;
+	border-radius: 8px;
+	cursor: pointer;
+	width:50px;
+	text-align: center;
+}
+
+.transaction_list_item_3{
+	background-color:#EB5757;
+	font-weight: 500;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: center;
+	color:white;
+	font-size: 12px;
+	padding:3px 15px;
+}
+/* .created_list_item_1{
+	width:30%;
+}
+.created_list_item_2{
+	width:30%;
+}
+.created_list_item_3{
+	width:15%;
+}
+.created_list_item_4{
+	width:25%;
+} */
